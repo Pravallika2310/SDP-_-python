@@ -1,0 +1,12 @@
+inputStr="pyNative"
+words=inputStr.split( )
+lower=[ ]
+Upper=[ ]
+for char in inputstr:
+	 if char is lower( ):
+	 lower .append(char)
+	 else:
+	 upper.append(char)
+	 sorted String=' '.join(lower+upper)
+print("\n arranging charactersvgiven precedence to lowercase letets:")
+print(sortefstring)

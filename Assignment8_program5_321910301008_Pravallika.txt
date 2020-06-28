@@ -1,0 +1,6 @@
+def appendMiddle(s1,s2):
+     middleIndex=int(len(s1)/2)
+     print("Original syrings are",s1,s2)
+     middleThree=s1[:middleIndex-1]+s2+s1[Middle Index 1:]
+     print("After appendong new string in middle",middle Three)
+     appendMiddle("Apple","Eateverymorning")
