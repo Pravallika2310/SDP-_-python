@@ -1,0 +1,13 @@
+a=[ ]
+a=input('enter a word').split( )
+a=str(a[0])
+prev =None
+c=[ ]
+d=' '
+for i in range (0,len(a)-1,1):
+  if a[i]!=prev:
+	  c+=a[i]
+	  prev=a[i]
+for i in range(0,len(c),1):
+		d+=c[i]
+		print(d)

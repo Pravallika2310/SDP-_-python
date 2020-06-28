@@ -1,0 +1,6 @@
+strl=input("Enter your own string:")
+vowels=0
+for i in str1:
+	if(i=='a' or i=='e' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='U')
+  Vowels = vowel+1
+  print("Total number of vowels in this string=",vowels)
