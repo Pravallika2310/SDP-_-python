@@ -1,0 +1,17 @@
+def cnt( ):
+	
+	s1=input("enter a string  :").strip( )
+	count=0
+	countu=0
+	for i in s1:
+		if(i.islower( )) :
+			count+=1
+			
+	    elif(i.isupper( )):
+	    	 countu+=1
+	    
+	    else:
+	    	pass
+	  print("The number of upper cases are :",countu)
+	  print("The number of lower cases are :",count)
+	  
