@@ -1,0 +1,4 @@
+appendme="\n added this line into files"
+appendfile=open("test.txt", "a")
+appendfile.write (appendme)
+appendfile.close( )
